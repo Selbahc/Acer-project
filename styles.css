@@ -1,0 +1,154 @@
+/************************
+GENERAL
+************************/
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-jc-sb {
+  justify-content: space-between;
+}
+
+.flex-jc-sa {
+  justify-content: space-around;
+}
+
+.flex-jc-center {
+  justify-content: center;
+}
+
+.flex-jc-start {
+  justify-content: flex-start;
+}
+
+.flex-ai-center {
+  align-items: center;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.flex2 {
+  flex: 2;
+}
+
+.flex3 {
+  flex: 3;
+}
+
+.flex4 {
+  flex: 4;
+}
+
+.flex5 {
+  flex: 5;
+}
+
+.w90 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list-clear {
+  list-style-type: none;
+  padding: 0;
+}
+
+.black {
+  color: black;
+}
+
+.white-button {
+  color: white;
+  border: 3px solid white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+.grey-button {
+  color: grey;
+  border: 3px solid grey;
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+
+/************************
+HEADER
+************************/
+
+header {
+  font-size: 0.80em;
+  height: 110px;
+  color: grey;
+}
+
+#logo {
+  height: 48px;
+  width: auto;
+}
+
+
+/************************
+SECTION 1
+************************/
+
+#sec1 {
+  height: 588px;
+  width: 100%;
+  background-image: url(img/Aspire-V-Nitro_overview_hero_large.jpg);
+  background-size: cover;
+  font-size: 0.75em;
+  color: white;
+}
+
+#sec1-header {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 61px;
+  color: grey;
+}
+
+#sec1-header div:first-child {
+  height: 100%;
+}
+
+#sec1-main {
+  height: 100%;
+}
+
+#sec1-subtitle {
+  font-size: 3em;
+}
+
+#sec1-title {
+  font-size: 5em;
+}
+
+#logo-win {
+  height: 44px;
+  width: 200px;
+}
+
+#logo-nvidia {
+  height: 44px;
+  width: 100px;
+}
