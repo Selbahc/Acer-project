@@ -52,6 +52,10 @@ GENERAL
   flex: 5;
 }
 
+.flex-auto {
+  flex: auto;
+}
+
 .w90 {
   width: 90%;
   margin: 0 auto;
@@ -151,4 +155,25 @@ SECTION 1
 #logo-nvidia {
   height: 44px;
   width: 100px;
+}
+
+
+/************************
+SECTION 2
+************************/
+
+#sec2 {
+  flex-wrap: wrap;
+  padding: .5vw;
+  font-size: 0;
+}
+
+#sec2 div {
+  max-width: 300px;
+  margin: .5vw;
+}
+
+#sec2 div img {
+  width: 100%;
+  height: auto;
 }
