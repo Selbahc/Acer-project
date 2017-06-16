@@ -2,6 +2,11 @@
 GENERAL
 ************************/
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -162,26 +167,77 @@ SECTION 1
 SECTION 2
 ************************/
 
-#sec2 {
+#gallery {
   border-collapse: collapse;
 }
 
-#sec2 tr+tr {
+#gallery tr+tr {
   border-top: 1px solid rgba(150, 150, 150, 0.2);
 }
 
-#sec2 td {
+#gallery td {
   max-width: 300px;
 }
 
-#sec2 td+td {
+#gallery td+td {
   border-left: 1px solid rgba(150, 150, 150, 0.2);
 }
 
-#sec2 td img {
+#gallery td img {
   width: 100%;
 }
 
-#sec2 td {
-  padding: 2em;
+#gallery td {
+  padding: 1.5em;
+}
+
+
+/************************
+SECTION 3
+************************/
+
+#new-style {
+  text-align: center;
+  background-color: rgb(245, 245, 245);
+}
+
+#new-style .grey-button {
+  font-size: .8em;
+}
+
+.new-h2 {
+  color: rgb(73, 73, 73);
+  padding-top: 1.5em;
+  font-size: 2em;
+}
+
+.new-p {
+  color: rgb(147, 147, 147);
+  font-size: 1.3em;
+}
+
+.new-img {
+  max-width: 100%;
+}
+
+
+/************************
+SECTION 4
+************************/
+
+#new-experience {
+  text-align: center;
+}
+
+#new-experience .grey-button {
+  font-size: .8em;
+}
+
+#all-model {
+  text-align: center;
+  background-color: rgb(245, 245, 245);
+}
+
+#all-model a {
+  margin: 4em;
 }
