@@ -163,17 +163,25 @@ SECTION 2
 ************************/
 
 #sec2 {
-  flex-wrap: wrap;
-  padding: .5vw;
-  font-size: 0;
+  border-collapse: collapse;
 }
 
-#sec2 div {
+#sec2 tr+tr {
+  border-top: 1px solid rgba(150, 150, 150, 0.2);
+}
+
+#sec2 td {
   max-width: 300px;
-  margin: .5vw;
 }
 
-#sec2 div img {
+#sec2 td+td {
+  border-left: 1px solid rgba(150, 150, 150, 0.2);
+}
+
+#sec2 td img {
   width: 100%;
-  height: auto;
+}
+
+#sec2 td {
+  padding: 2em;
 }
