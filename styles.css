@@ -236,8 +236,79 @@ SECTION 4
 #all-model {
   text-align: center;
   background-color: rgb(245, 245, 245);
+  padding: 4em;
 }
 
-#all-model a {
-  margin: 4em;
+
+/************************
+FOOTER
+************************/
+
+footer {
+  color: rgb(176, 176, 176);
+  font-size: .7em;
+}
+
+#footer-legal {
+  background-color: rgb(97, 97, 97);
+  padding: 40px 0;
+}
+
+
+/*********************/
+
+#footer-main {
+  background-color: rgb(66, 66, 66);
+}
+
+#footer-main h3 {
+  color: white;
+  margin: 3.5em 0 2em 0;
+}
+
+#footer-main input {
+  background-color: rgb(97, 97, 97);
+  border: 1px solid white;
+  font-size: 1.3em;
+  width: 40%;
+  padding: 0 10px;
+}
+
+#button-footer {
+  color: rgb(66, 66, 66);
+  border: 3px solid white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: inline-block;
+  background-color: white;
+  font-size: 1.3em;
+  margin-left: 20px;
+}
+
+#confidentiality {
+  text-decoration: underline;
+}
+
+#social div img {
+  max-width: 30px;
+  margin: 10px;
+}
+
+
+/********************/
+
+#footer-brand {
+  background-color: rgb(32, 32, 32);
+  padding-top: 30px;
+}
+
+#footer-brand img {
+  width: 100px;
+}
+
+#logo-blanc {
+  width: 150px;
+  margin: 0 auto;
+  position: relative;
+  top: -80px;
 }
